@@ -1,0 +1,256 @@
+body {
+    font-family: 'Roboto', sans-serif; 
+}
+
+.header {
+    background-color: white;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1923;  //не можу зрозуміти чому друга частина лого маленькими літерами
+    letter-spacing: 0.03em;
+    color: #000;
+    text-decoration: none;
+    font-family:'Raleway', sans-serif;
+}
+
+.web {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1923;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1428;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.header-nav,
+.header-contact {
+    list-style: none;
+}
+
+.header-nav-link {
+    color: #212121;   
+}
+
+.header-mail,
+.header-telnumber {
+    color: #757575;
+}
+
+.header-nav-link:hover,
+.header-mail:hover,
+.header-telnumber:hover,
+.header-nav-link:focus,
+.header-mail:focus,
+.header-telnumber:focus{
+    color: #2196F3;
+}
+
+.header-nav-link:active,
+.header-mail:active,
+.header-telnumber:active {
+    color: #0616a5;
+}
+
+.hero {
+    background-color: #2F303A;
+}
+
+.title {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.button-service {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: #2196F3;
+    text-align: center; ./не зрозумів як зцентрувати кнопку
+    }
+
+.button-service:hover,
+.button-service:focus {
+    background-color: rgb(64, 66, 206);
+}
+
+.button-service:active {
+    background-color: #0616a5;
+}
+
+.main {
+    background-color: #FFFFFF;
+}
+
+.advantages { 
+    text-align: center;
+    font-size: 25px;
+    color: #212121;
+}
+
+.text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1428;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.adv-list {
+    list-style: none;
+}
+
+.content {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7142;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.about {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1666;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.our-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.6666;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.info {
+    list-style: none;
+}
+
+.employers {
+    list-style: none;
+}
+
+.names {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1875;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.content-about {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1875;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.footer { 
+    background: #2F303A;
+}
+
+.address {
+    list-style: none;
+}
+
+.adress-map {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7142;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.link { 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7142;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.logotype {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1923;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.work {
+    text-align: center;
+}
+
+.buttons {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.buttons:hover,
+.buttons:focus {
+    color: #2196F3;
+}
+
+.all {
+    list-style: none
+}
+
+.titles-all {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.about-all {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.875;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
