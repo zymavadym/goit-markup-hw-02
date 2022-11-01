@@ -1,29 +1,29 @@
 body {
     font-family: 'Roboto', sans-serif; 
+    background-color: #FFFFFF;
+    color: #212121;
 }
 
-.header {
-    background-color: white;
+:root {
+    --brand-color: #2196F3;
+}
+
+.web-header {
+    color: #000;
+}
+
+.web-footer {
+    color: #FFFFFF;
 }
 
 .logo {
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.1923;  //не можу зрозуміти чому друга частина лого маленькими літерами
-    letter-spacing: 0.03em;
-    color: #000;
-    text-decoration: none;
-    font-family:'Raleway', sans-serif;
-}
-
-.web {
-    font-weight: 700;
-    font-size: 26px;
     line-height: 1.1923;
     letter-spacing: 0.03em;
-    color: #2196F3;
-    text-decoration: none;
+    color: var(--brand-color);
     font-family: 'Raleway', sans-serif;
+    text-decoration: none;
 }
 
 .header a {
@@ -40,7 +40,7 @@ body {
 }
 
 .header-nav-link {
-    color: #212121;   
+    color: #000;
 }
 
 .header-mail,
@@ -53,8 +53,8 @@ body {
 .header-telnumber:hover,
 .header-nav-link:focus,
 .header-mail:focus,
-.header-telnumber:focus{
-    color: #2196F3;
+.header-telnumber:focus {
+    color: var(--brand-color);
 }
 
 .header-nav-link:active,
@@ -68,19 +68,23 @@ body {
 }
 
 .title {
-    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3636;
     text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .button-service {
-    font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    background: #2196F3;
-    text-align: center; ./не зрозумів як зцентрувати кнопку
+    background: var(--brand-color);
+    text-align: center; 
     }
 
 .button-service:hover,
@@ -92,22 +96,15 @@ body {
     background-color: #0616a5;
 }
 
-.main {
-    background-color: #FFFFFF;
-}
-
 .advantages { 
     text-align: center;
     font-size: 25px;
-    color: #212121;
 }
 
 .text {
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.1428;
     letter-spacing: 0.03em;
-    color: #212121;
 }
 
 .adv-list {
@@ -115,7 +112,6 @@ body {
 }
 
 .content {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7142;
     letter-spacing: 0.03em;
@@ -123,7 +119,6 @@ body {
 }
 
 .about {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.1666;
     text-align: center;
@@ -132,12 +127,10 @@ body {
 }
 
 .our-team {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.6666;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
 }
 
 .info {
@@ -153,11 +146,9 @@ body {
     font-size: 16px;
     line-height: 1.1875;
     letter-spacing: 0.03em;
-    color: #212121;
 }
 
 .content-about {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.1875;
     letter-spacing: 0.03em;
@@ -168,12 +159,15 @@ body {
     background: #2F303A;
 }
 
+.adress-footer {
+    font-style: normal;
+}
+
 .address {
     list-style: none;
 }
 
 .adress-map {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7142;
     letter-spacing: 0.03em;
@@ -182,7 +176,6 @@ body {
 }
 
 .link { 
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7142;
     letter-spacing: 0.03em;
@@ -190,17 +183,19 @@ body {
     text-decoration: none;
 }
 
-.logotype {
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.1923;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-    text-decoration: none;
+.adress-map:hover,
+.link:hover,
+.adress-map:focus,
+.link:focus {
+    color: var(--brand-color);
 }
 
 .work {
     text-align: center;
+}
+
+.button {
+    list-style: none;
 }
 
 .buttons {
@@ -210,31 +205,39 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    background-color: #F5F4FA;
+    
 }
 .buttons:hover,
 .buttons:focus {
-    color: #2196F3;
+    color: #FFFFFF;
+    background-color: var(--brand-color);
 }
 
 .all {
-    list-style: none
+    list-style: none;
+}
+
+.all-about { 
+    text-decoration: none;
 }
 
 .titles-all {
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
+    text-decoration: none;
 }
 
-.about-all {
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.875;
-        letter-spacing: 0.03em;
-        color: #757575;
+.link-about {
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: #757575;
+    text-decoration: none;
 }
+
 
 
 
