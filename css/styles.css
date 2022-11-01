@@ -214,6 +214,11 @@ body {
     background-color: var(--brand-color);
 }
 
+.buttons:active {
+    color: #FFFFFF;
+    background-color: #0616a5;
+}
+
 .all {
     list-style: none;
 }
