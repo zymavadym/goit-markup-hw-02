@@ -26,6 +26,11 @@ body {
     text-decoration: none;
 }
 
+.header .logo {
+    font-weight: 700;
+    font-size: 26px;
+}
+
 .header a {
     font-weight: 500;
     font-size: 14px;
@@ -65,6 +70,8 @@ body {
 
 .hero {
     background-color: #2F303A;
+    font-weight: 700;
+    font-family: inherit;
 }
 
 .title {
@@ -78,13 +85,14 @@ body {
 }
 
 .button-service {
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    background: var(--brand-color);
-    text-align: center; 
+    background: var(--brand-color); 
+    cursor: pointer;
     }
 
 .button-service:hover,
@@ -219,6 +227,11 @@ body {
     background-color: #0616a5;
 }
 
+.button .buttons {
+    font-family: inherit;
+    cursor: pointer;
+}
+
 .all {
     list-style: none;
 }
@@ -235,12 +248,24 @@ body {
     text-decoration: none;
 }
 
+.about-all {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
 .link-about {
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
     color: #757575;
     text-decoration: none;
+}
+
+.current {
+    color: var(--brand-color);
 }
 
 
