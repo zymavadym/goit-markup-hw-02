@@ -229,7 +229,7 @@ body {
 
 .button .buttons {
     font-family: inherit;
-    cursor: pointer;
+    cursor: pointer; 
 }
 
 .all {
